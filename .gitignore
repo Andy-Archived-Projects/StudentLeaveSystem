@@ -1,0 +1,9 @@
+server/.idea
+server/utils/__pycache__
+server/data
+server/log/
+
+client/.idea
+client/utils/__pycache__
+client/config.yml
+client/*.png

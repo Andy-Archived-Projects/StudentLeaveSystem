@@ -1,0 +1,79 @@
+init.set_debug: 'Logging mode has set to DEBUG'
+login.welcome: '============Welcome to Student Leave System============'
+login.input_info: 'Please input your account info'
+login.error_username: 'Undefined user'
+login.error_password: 'Wrong password'
+login.success: 'Login success'
+
+input.username: 'Username: '
+input.password: 'Password: '
+input.new_password: 'New password: '
+input.permission_level: 'permission level: '
+input.select: 'Please select: '
+input.reason': 'Reason: '
+input.start_time: 'Start time(eg.2020-01-09-09-30): '
+input.end_time: 'End time(eg. 2020-01-09-18-00): '
+input.application_id: 'Application ID: '
+input.comment: 'Comment(Press Enter if no comment): '
+
+permission_denied: 'Permission denied'
+operation_success: 'Operation success'
+none_data: 'No more data'
+application_not_exists: 'Application not exists'
+has_operated: 'Has operated'
+
+reminder.must_int: 'Please input a number'
+reminder.input_must_in: 'Input must in {}'
+reminder.password_illegal_character: 'Illegal character in password: {}'
+reminder.time_format: 'Time formatter error'
+
+user.user_info: |
+  ================================
+  Username: {}
+  Password: {}
+  Permission: {}
+  ================================
+
+application.status.sent: 'Application sent'
+application.status.first_passed: 'First passed'
+application.status.final_passed: 'Final passed'
+application.status.refused: 'Refused'
+application.info: |
+  =======================================
+  Application ID: {}
+  Name: {}
+  Start time: {}
+  End time: {}
+  Reason: {}
+  Comment: {}
+  Status: {}
+  =======================================
+
+select.student: |
+  =======================================
+  1.Show apply
+  2.Send apply
+  3.Recall apply
+  4.生成二维码
+  5.Change password
+  =======================================
+select.approver: |
+  =======================================
+  1.Start approve
+  2.Show list
+  3.Change consent
+  4.Change password
+  =======================================
+select.admin: |
+  =======================================
+  1.List user
+  2.Add user
+  3.Delete user
+  4.Change password
+  5.Set permission level
+  =======================================
+select.status: |
+  =======================================
+  1.Pass
+  2.Refuse
+  =======================================

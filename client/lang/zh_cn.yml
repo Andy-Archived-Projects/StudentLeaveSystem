@@ -1,0 +1,79 @@
+init.set_debug: '日志记录模式已设为DEBUG'
+login.welcome: '============欢迎来到学生请假系统============'
+login.input_info: '请输入您的输入用户信息'
+login.error_username: '用户不存在'
+login.error_password: '密码错误'
+login.success: '登录成功'
+
+input.username: '用户名: '
+input.password: '密码: '
+input.new_password: '新密码: '
+input.permission_level: '权限等级: '
+input.select: '请选择: '
+input.reason: '原因: '
+input.start_time: '开始时间(例 2020-01-09-09-30): '
+input.end_time: '结束时间(例 2020-01-09-18-00): '
+input.application_id: '申请ID: '
+input.comment: '批示(无批示摁回车): '
+
+permission_denied: '权限不足'
+operation_success: '操作成功'
+none_data: '没有信息了'
+application_not_exists: '申请不存在'
+has_operated: '操作过了'
+
+reminder.must_int: '请输入一个数字'
+reminder.input_must_in: '输入内容必须在 {} 内'
+reminder.password_illegal_character: '密码包含不合法字符: {}'
+reminder.time_format: '时间格式错误'
+
+user.user_info: |
+  =======================================
+  用户名: {}
+  密码: {}
+  权限: {}
+  =======================================
+
+application.status.sent: '已申请'
+application.status.first_passed: '初审通过'
+application.status.final_passed: '终审通过'
+application.status.refused: '申请拒绝'
+application.info: |
+  =======================================
+  申请ID: {}
+  姓名: {}
+  开始时间: {}
+  结束时间: {}
+  原因: {}
+  批示: {}
+  状态: {}
+  =======================================
+
+select.student: |
+  =======================================
+  1.查看申请
+  2.发送申请
+  3.撤回申请
+  4.生成二维码
+  5.修改密码
+  =======================================
+select.approver: |
+  =======================================
+  1.开始审批
+  2.查看列表
+  3.修改许可
+  4.修改密码
+  =======================================
+select.admin: |
+  =======================================
+  1.查看用户列表
+  2.添加用户
+  3.删除用户
+  4.修改密码
+  5.修改权限等级
+  =======================================
+select.status: |
+  =======================================
+  1.通过
+  2.拒绝
+  =======================================
