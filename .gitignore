@@ -7,3 +7,4 @@ client/.idea
 client/utils/__pycache__
 client/config.yml
 client/*.png
+client/LeaveSystemClient
