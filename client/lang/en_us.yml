@@ -10,7 +10,7 @@ input.password: 'Password: '
 input.new_password: 'New password: '
 input.permission_level: 'permission level: '
 input.select: 'Please select: '
-input.reason': 'Reason: '
+input.reason: 'Reason: '
 input.start_time: 'Start time(eg.2020-01-09-09-30): '
 input.end_time: 'End time(eg. 2020-01-09-18-00): '
 input.application_id: 'Application ID: '
@@ -28,11 +28,11 @@ reminder.password_illegal_character: 'Illegal character in password: {}'
 reminder.time_format: 'Time formatter error'
 
 user.user_info: |
-  ================================
+  =======================================
   Username: {}
   Password: {}
   Permission: {}
-  ================================
+  =======================================
 
 application.status.sent: 'Application sent'
 application.status.first_passed: 'First passed'
@@ -54,7 +54,7 @@ select.student: |
   1.Show apply
   2.Send apply
   3.Recall apply
-  4.生成二维码
+  4.Create QR code
   5.Change password
   =======================================
 select.approver: |
